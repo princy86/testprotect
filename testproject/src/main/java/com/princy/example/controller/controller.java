@@ -1,5 +1,15 @@
 package com.princy.example.controller;
 
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class controller {
+	@PostMapping("/")
+	public String gitHub(){
+		return "Git hub is successfully running";
+	}
+	
+	
 
 }

@@ -1,11 +1,16 @@
 package com.princy.example;
 
 import org.springframework.boot.SpringApplication;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class TestprojectApplication {
 
+
+@SpringBootApplication
+	public class TestprojectApplication{
+
+
+		
 	public static void main(String[] args) {
 		SpringApplication.run(TestprojectApplication.class, args);
 	}
