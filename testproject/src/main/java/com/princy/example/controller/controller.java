@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class controller {
 	@PostMapping("/")
-	public String gitHub(){
+	public gitHub(){
 		return "Git hub is successfully running";
 	}
 	
