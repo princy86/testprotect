@@ -10,6 +10,9 @@ public class controller {
 		return "Git hub is successfully running";
 	}
 	
-	
-
+	@PostMapping("/")
+	public String jenkinsIntegration(){
+		return "jenkins job are successfully running";
+	}
 }
+
